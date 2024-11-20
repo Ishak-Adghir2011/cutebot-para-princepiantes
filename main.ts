@@ -1,0 +1,15 @@
+cuteBot.colorLight(cuteBot.RGBLights.ALL, 0x00ffff)
+cuteBot.moveTime(cuteBot.Direction.forward, 40, 4)
+cuteBot.colorLight(cuteBot.RGBLights.RGB_L, 0xff0000)
+cuteBot.moveTime(cuteBot.Direction.backward, 70, 2)
+cuteBot.colorLight(cuteBot.RGBLights.RGB_L, 0xffff00)
+cuteBot.moveTime(cuteBot.Direction.left, 90, 1)
+cuteBot.colorLight(cuteBot.RGBLights.RGB_L, 0xff8000)
+cuteBot.moveTime(cuteBot.Direction.right, 50, 4)
+cuteBot.closeheadlights()
+basic.showString("Hola soy ishak")
+cuteBot.moveTime(cuteBot.Direction.forward, 50, 2)
+basic.showIcon(IconNames.Asleep)
+basic.forever(function () {
+	
+})
